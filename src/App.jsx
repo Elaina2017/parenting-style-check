@@ -333,7 +333,7 @@ ${responsePatterns.filter(p => p.answer === 5 || p.answer === 1).slice(0, 5).map
             {/* 헤더 */}
             <div className="relative p-8 md:p-12 text-center">
               {/* 일러스트 위치: 상단 배경 이미지 */}
-              <div className="absolute top-0 right-0 w-48 h-48 opacity-10">
+              <div className="absolute top-0 right-0 w-48 h-48 opacity-70">
                 <img 
                   src={currentType.image} 
                   className="w-full h-full object-contain" 
