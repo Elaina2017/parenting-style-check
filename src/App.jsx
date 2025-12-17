@@ -512,7 +512,7 @@ ${responsePatterns.filter(p => p.answer === 5 || p.answer === 1).slice(0, 5).map
               <img
                 src="/images/logo.png" 
                 alt="SAiU 로고"
-                className="h-48 mb-2"
+                className="w-48 mb-2"
               />
             </div>
             <div className="flex justify-between items-center mb-2">
