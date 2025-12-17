@@ -508,6 +508,13 @@ ${responsePatterns.filter(p => p.answer === 5 || p.answer === 1).slice(0, 5).map
       <div className="max-w-2xl mx-auto">
         <div className="bg-white rounded-2xl shadow-xl p-8">
           <div className="mb-8">
+            <div className="flex justify-center mb-4">
+              <img
+                src="/images/logo.png" 
+                alt="SAiU 로고"
+                className="h-12 mb-2"
+              />
+            </div>
             <div className="flex justify-between items-center mb-2">
               <h1 className="text-2xl font-bold text-gray-800">부모 양육스타일 검사</h1>
               <span className="text-sm text-gray-500">{currentQuestion + 1} / {questions.length}</span>
